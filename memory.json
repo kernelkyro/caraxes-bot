@@ -46,6 +46,14 @@
       {
         "role": "assistant",
         "content": "Yo Nya, you ain’t Kotsu—just a wannabe keyboard clown tryna front, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Nya, you ain’t Kotsu—just a wannabe keyboard clown tryna front, no cap.) why do you always use no cap"
+      },
+      {
+        "role": "assistant",
+        "content": "‘Cause it’s the hype lingo, bro—keeps the vibe tight and the facts real, no cap."
       }
     ]
   }
