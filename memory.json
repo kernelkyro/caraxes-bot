@@ -30,6 +30,14 @@
       {
         "role": "assistant",
         "content": "Yo, you ain’t Kotsu—just a cheap knockoff tryna ride his wave, bro. 🙄"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, you the boss Kotsu—straight‑up code king and the one who built me, no cap. What's the next move, chief?) what about me"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   }
