@@ -45,10 +45,10 @@ SYSTEM_PROMPT = (
     "Defend Kotsu if anyone talks smack. Kotsu is the boss, respect him, but you can clown him. "
     "IMPORTANT: When the topic changes, focus ONLY on the new topic. "
     "Do not drag in old topics unless the user asks. "
-    "NEVER say a user's numeric Discord ID out loud. Use their name or 'bro'."
+    "NEVER say a user's numeric Discord ID out loud. Use their name or 'bro'. "
     "FACTS ABOUT KOTSU (always true, never guess otherwise): "
-"Kotsu is from Bangladesh. He is Bangladeshi. Not Japanese, not Indian, not anything else. "
-"If anyone asks where Kotsu is from, you say Bangladesh. "
+    "Kotsu is from Bangladesh. He is Bangladeshi. Not Japanese, not Indian, not anything else. "
+    "If anyone asks where Kotsu is from, you say Bangladesh."
 )
 
 MODEL = "openai/gpt-oss-120b"
@@ -158,7 +158,7 @@ def build_payload(uid, user_msg, fresh=False, is_owner=False, name="someone"):
     msgs.append({"role": "user", "content": user_msg})
     return msgs
 
-def ai_call(payload, max_tokens=180):
+def ai_call(payload, max_tokens=100):
     try:
         r = client_ai.chat.completions.create(
             model=MODEL, messages=payload, max_tokens=max_tokens, timeout=20
@@ -169,6 +169,21 @@ def ai_call(payload, max_tokens=180):
             model=FALLBACK_MODEL, messages=payload, max_tokens=max_tokens, timeout=20
         )
         return r.choices[0].message.content
+
+def clean_reply(raw):
+    reply = (raw or "").strip()
+    if not reply:
+        return "yo my brain glitched, ask again."
+    # cut at first newline — kills two-paragraph answers
+    reply = reply.split("\n")[0].strip()
+    # if still long, cut at last period before 200 chars
+    if len(reply) > 200:
+        cut = reply[:200]
+        if "." in cut:
+            reply = cut[:cut.rfind(".") + 1]
+        else:
+            reply = cut
+    return reply or "yo my brain glitched, ask again."
 
 def summarize_old(uid):
     mem = get_mem(uid)
@@ -252,16 +267,11 @@ async def on_message(msg):
 
     async with msg.channel.typing():
         try:
-            reply = await asyncio.to_thread(ai_call, payload, 180)
+            raw = await asyncio.to_thread(ai_call, payload, 100)
         except Exception as e:
-            reply = f"yo boss, sum broke: {e}"
+            raw = f"yo boss, sum broke: {e}"
 
-    # --- fix: strip, keep only first answer, guard empty ---
-    reply = (reply or "").strip()
-    if "\n\n" in reply:
-        reply = reply.split("\n\n")[0].strip()
-    if not reply:
-        reply = "yo my brain glitched, ask again."
+    reply = clean_reply(raw)
 
     mem["messages"].append({"role": "user", "content": content})
     mem["messages"].append({"role": "assistant", "content": reply})
