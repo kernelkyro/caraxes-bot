@@ -78,6 +78,14 @@
       {
         "role": "assistant",
         "content": "yo my brain glitched, ask again."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) the hood is mine"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, Nya, your hood's just a kiddie pool while I'm the whole damn ocean, no cap."
       }
     ]
   }
