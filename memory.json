@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "yo my brain glitched, ask again."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) Am i your god lil boi"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
