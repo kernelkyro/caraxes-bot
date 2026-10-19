@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Yo Kotsu, gotcha, boss—respect the OG. What’s"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Kotsu, gotcha, boss—respect the OG. What’s) Who is kotsu?what his username"
+      },
+      {
+        "role": "assistant",
+        "content": "Kotsu’s the boss who built me from the ground up—straight‑up code king, and his Discord handle’s just Kotsu, no frills."
       }
     ]
   },
