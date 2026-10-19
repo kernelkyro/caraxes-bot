@@ -78,6 +78,14 @@
       {
         "role": "assistant",
         "content": "‘Cause it’s the hype lingo, bro—keeps the vibe tight and the facts real, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Nah, bro, I'm just the roast king—no cap, ain't about that vibe.) is you gay"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   }
