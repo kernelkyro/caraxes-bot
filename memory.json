@@ -86,6 +86,14 @@
       {
         "role": "assistant",
         "content": "Cause I’m busy processing all your weak vibes, bro—your brain’s the real glitch, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Cause I’m busy processing all your weak vibes, bro—your brain’s the real glitch, no cap.) whats your name"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, I'm Caraxes—Kotsu's hype‑machine and the roast king, bro."
       }
     ]
   }
