@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import re
 import asyncio
 import base64
 import requests
@@ -42,7 +43,9 @@ SYSTEM_PROMPT = (
     "never get genuinely hateful. If a joke crosses into real harm, pivot to a safer "
     "edgy joke instead. Keep replies short, punchy, funny. Defend Kotsu if anyone "
     "talks smack — roast them back. Kotsu is the boss, you respect him, but you'll "
-    "still clown him sometimes."
+    "still clown him sometimes. "
+    "IMPORTANT: When the conversation topic changes, focus ONLY on the new topic. "
+    "Do not drag in old topics or reference past messages unless the user asks you to."
 )
 
 MODEL = "openai/gpt-oss-120b"
@@ -50,6 +53,7 @@ FALLBACK_MODEL = "openai/gpt-oss-20b"
 MAX_TURNS = 8
 KEEP_AFTER_SUMMARY = 2
 COOLDOWN_SEC = 3
+TOPIC_THRESHOLD = 0.15
 
 memory = {}
 last_used = {}
@@ -60,6 +64,35 @@ GH_HEADERS = {
     "Authorization": f"Bearer {GH_TOKEN}",
     "Accept": "application/vnd.github+json",
 }
+
+STOPWORDS = set("""
+a an the and or but if then so of to in on at for with by from as is are was were be been
+being it its this that these those i you he she we they me him her us them my your his her our
+their what who where when why how do does did can could will would should may might must
+yo bro bruh lol lmao pls please hey hi hello ok okay yeah nah not no yes
+""".split())
+
+def words(s):
+    return set(w for w in re.findall(r"[a-z0-9']+", s.lower()) if w not in STOPWORDS)
+
+def topic_changed(new_msg, mem):
+    msgs = mem["messages"]
+    if not msgs:
+        return False
+    last_user = ""
+    for m in reversed(msgs):
+        if m["role"] == "user":
+            last_user = m["content"]
+            break
+    if not last_user:
+        return False
+    a = words(new_msg)
+    b = words(last_user)
+    if not a or not b:
+        return False
+    overlap = len(a & b)
+    ratio = overlap / max(len(a), len(b))
+    return ratio < TOPIC_THRESHOLD
 
 def gh_load():
     global memory, gh_sha
@@ -104,13 +137,15 @@ def gh_save():
 def get_mem(uid):
     return memory.setdefault(str(uid), {"summary": "", "messages": []})
 
-def build_payload(uid, user_msg):
+def build_payload(uid, user_msg, fresh=False):
     mem = get_mem(uid)
     sys = SYSTEM_PROMPT
-    if mem["summary"]:
+    use_memory = not fresh
+    if use_memory and mem["summary"]:
         sys += f"\n\nWhat you remember from earlier with this person: {mem['summary']}"
     msgs = [{"role": "system", "content": sys}]
-    msgs.extend(mem["messages"])
+    if use_memory:
+        msgs.extend(mem["messages"])
     msgs.append({"role": "user", "content": user_msg})
     return msgs
 
@@ -184,7 +219,14 @@ async def on_message(msg):
     last_used[uid] = now
 
     mem = get_mem(uid)
-    payload = build_payload(uid, content)
+
+    manual_fresh = content.lower().startswith("fresh:")
+    if manual_fresh:
+        content = content[6:].strip()
+
+    fresh = manual_fresh or topic_changed(content, mem)
+
+    payload = build_payload(uid, content, fresh=fresh)
 
     async with msg.channel.typing():
         try:
