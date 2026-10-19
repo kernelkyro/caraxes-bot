@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo, what’s the game that’s got you glued, bro? 😏"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, what’s the game that’s got you glued, bro? 😏) Am i your god?😢"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
