@@ -37,35 +37,11 @@
     ]
   },
   "1162705292186890261": {
-    "summary": "Nya, the user’s identifier, is an anonymous online participant whose age, location, occupation, school, hobbies, favorite games, music taste, food preferences, pets, and relationships have never been disclosed. Nya repeatedly asks “who am I?” and is constantly teased as a “keyboard clown,” a running joke that the assistant reinforces. The user once claimed to be Kotsu, but the assistant corrected them, noting that Kotsu is actually from Bangladesh, not Japan. The dialogue frequently features the slang “no cap,” which has become another recurring gag both parties use to emphasize statements. Nya’s mood oscillates between playful provocation (“are you gay dumbass”) and sarcastic self‑deprecation (“yeah u are dumb”), prompting the assistant to respond with equally irreverent “no cap” banter. The",
+    "summary": "Nya is an anonymous online user who never reveals age, location, occupation, school, pets, or relationships. Their mood swings between playful provocation (“are you gay dumbass”) and sarcastic self‑deprecation, often peppered with the slang “no cap” and the running gag of being called a “keyboard clown.” Nya frequently jokes that both their brain and Caraxes’s brain are “glitching,” using the glitch metaphor as a recurring roast.  \n\nGames are a central hobby: Nya asks for suggestions and is steered toward fast‑paced shooters (Apex Legends, Call of Duty Mobile), open‑world Android titles (Genshin Impact), survival sandbox (Valheim), and rogue‑action (Dead Cells). They explicitly request Android‑compatible games, indicating",
     "messages": [
       {
         "role": "user",
-        "content": "(replying to: yo my brain glitched, ask again.) hi bro"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo what's good, bro?"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo what's good, bro?) am bored suggest some games"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Nya, try Apex Legends for that fast‑paced hustle, or drop into Valheim for some low‑key survival vibes, and if you"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo Nya, try Apex Legends for that fast‑paced hustle, or drop into Valheim for some low‑key survival vibes, and if you) android games"
-      },
-      {
-        "role": "assistant",
-        "content": "Aight, Nya—peep Genshin Impact for open‑world flex, Call of Duty: Mobile for that shooter grind, and Dead Cells for some hardcore rogue‑action, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Aight, Nya—peep Genshin Impact for open‑world flex, Call of Duty: Mobile for that shooter grind, and Dead Cells for some hardcore rogue‑action, no cap.) yo"
+        "content": "(replying to: Yo, I'm Caraxes—Kotsu's hype‑machine and the roast king, bro.) damn nigga"
       },
       {
         "role": "assistant",
@@ -73,31 +49,7 @@
       },
       {
         "role": "user",
-        "content": "(replying to: yo my brain glitched, ask again.) wtf bro"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, you glitchin’ like a busted console, bro—fix that brain before you come at me. 🙅‍♂"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, you glitchin’ like a busted console, bro—fix that brain before you come at me. 🙅‍♂) why is your brain keep glitching"
-      },
-      {
-        "role": "assistant",
-        "content": "Cause I’m busy processing all your weak vibes, bro—your brain’s the real glitch, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Cause I’m busy processing all your weak vibes, bro—your brain’s the real glitch, no cap.) whats your name"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I'm Caraxes—Kotsu's hype‑machine and the roast king, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, I'm Caraxes—Kotsu's hype‑machine and the roast king, bro.) damn nigga"
+        "content": "(replying to: yo i'm alive bro.) niga wsp"
       },
       {
         "role": "assistant",
