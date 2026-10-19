@@ -94,6 +94,14 @@
       {
         "role": "assistant",
         "content": "Aight, bro, if dumb was a sport you'd be MVP, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) hi bro"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo what's good, bro?"
       }
     ]
   }
