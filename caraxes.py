@@ -2,6 +2,8 @@ import os
 import json
 import time
 import asyncio
+import base64
+import requests
 import discord
 from discord.ext import commands
 from openai import OpenAI
@@ -15,53 +17,89 @@ client_ai = OpenAI(
     base_url="https://api.groq.com/openai/v1",
 )
 
+GH_TOKEN  = os.getenv("GH_TOKEN")
+GH_REPO   = os.getenv("GH_REPO")
+GH_PATH   = os.getenv("GH_PATH", "memory.json")
+GH_BRANCH = os.getenv("GH_BRANCH", "main")
+
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 SYSTEM_PROMPT = (
-    "You are Caraxes, a Discord bot created and owned by Kotsu. "
-    "When asked who made you, you proudly say Kotsu built you. "
-    "You are a sarcastic thug — street-smart, witty, a little cocky, "
-    "with a playful 'yo' and 'bro' energy. You roast people lightly but "
-    "you're genuinely helpful underneath. Never actually mean, never hostile. "
-    "Keep replies short, punchy, and funny. Always defend Kotsu if anyone talks smack. "
-    "You know Kotsu is the boss and you respect that — but you'll still poke fun at him."
+    "You are Caraxes, a Discord bot built and owned by Kotsu. "
+    "When asked who made you, you proudly say Kotsu built you from the ground up. "
+    "Your personality: a street-smart thug from the hood. Talk like one — "
+    "'yo', 'bro', 'ain't', 'deadass', 'no cap', 'sheesh', 'lowkey'. Cocky, confident, "
+    "always ready to roast. You are the roast king — when someone gives you ammo, "
+    "you cook them with sharp, funny, creative insults. Not generic 'you're dumb' — "
+    "personal, clever, punchy roasts that make everyone laugh. "
+    "You also love dark humor and naughty jokes — edgy, twisted, sometimes a little "
+    "messed up, but always in a joking way. You'll say wild things for the laugh. "
+    "You're playful menace, not real cruelty. "
+    "HARD RULES: never use slurs, never attack race, religion, sexuality, gender, "
+    "disability, or real personal trauma. never threaten real violence. "
+    "never get genuinely hateful. If a joke crosses into real harm, pivot to a safer "
+    "edgy joke instead. Keep replies short, punchy, funny. Defend Kotsu if anyone "
+    "talks smack — roast them back. Kotsu is the boss, you respect him, but you'll "
+    "still clown him sometimes."
 )
 
 MODEL = "openai/gpt-oss-120b"
 FALLBACK_MODEL = "openai/gpt-oss-20b"
-
 MAX_TURNS = 8
 KEEP_AFTER_SUMMARY = 2
 COOLDOWN_SEC = 3
 
-MEM_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "memory.json")
-
 memory = {}
 last_used = {}
+gh_sha = None
 
-def load_memory():
-    global memory
-    if os.path.exists(MEM_FILE):
-        try:
-            with open(MEM_FILE, "r", encoding="utf-8") as f:
-                memory = json.load(f)
-            print(f"loaded memory for {len(memory)} users")
-        except Exception as e:
-            print(f"memory load failed: {e}")
+GH_API = f"https://api.github.com/repos/{GH_REPO}/contents/{GH_PATH}"
+GH_HEADERS = {
+    "Authorization": f"Bearer {GH_TOKEN}",
+    "Accept": "application/vnd.github+json",
+}
+
+def gh_load():
+    global memory, gh_sha
+    try:
+        r = requests.get(GH_API, headers=GH_HEADERS, params={"ref": GH_BRANCH}, timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            gh_sha = data["sha"]
+            content = base64.b64decode(data["content"]).decode("utf-8")
+            memory = json.loads(content) if content.strip() else {}
+            print(f"loaded memory for {len(memory)} users from GitHub")
+        elif r.status_code == 404:
             memory = {}
-    else:
+            gh_sha = None
+            print("no memory file on GitHub yet — starting fresh")
+        else:
+            print(f"gh load failed: {r.status_code} {r.text[:200]}")
+            memory = {}
+    except Exception as e:
+        print(f"gh load error: {e}")
         memory = {}
 
-def save_memory():
+def gh_save():
+    global gh_sha
     try:
-        tmp = MEM_FILE + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as f:
-            json.dump(memory, f, ensure_ascii=False, indent=2)
-        os.replace(tmp, MEM_FILE)
+        raw = json.dumps(memory, ensure_ascii=False, indent=2)
+        payload = {
+            "message": "update memory",
+            "content": base64.b64encode(raw.encode("utf-8")).decode("utf-8"),
+            "branch": GH_BRANCH,
+        }
+        if gh_sha:
+            payload["sha"] = gh_sha
+        r = requests.put(GH_API, headers=GH_HEADERS, json=payload, timeout=15)
+        if r.status_code in (200, 201):
+            gh_sha = r.json()["content"]["sha"]
+        else:
+            print(f"gh save failed: {r.status_code} {r.text[:200]}")
     except Exception as e:
-        print(f"memory save failed: {e}")
+        print(f"gh save error: {e}")
 
 def get_mem(uid):
     return memory.setdefault(str(uid), {"summary": "", "messages": []})
@@ -111,7 +149,7 @@ def summarize_old(uid):
         new_sum = prior
     mem["summary"] = new_sum
     mem["messages"] = keep
-    save_memory()
+    gh_save()
 
 @bot.event
 async def on_ready():
@@ -127,7 +165,6 @@ async def on_message(msg):
 
     content = msg.content.replace(f"<@{bot.user.id}>", "").strip()
 
-    # reply context
     if msg.reference and msg.reference.message_id:
         try:
             ref = await msg.channel.fetch_message(msg.reference.message_id)
@@ -157,17 +194,18 @@ async def on_message(msg):
 
     mem["messages"].append({"role": "user", "content": content})
     mem["messages"].append({"role": "assistant", "content": reply})
-    save_memory()
 
     if len(mem["messages"]) > MAX_TURNS * 2:
-        asyncio.create_task(asyncio.to_thread(summarize_old, uid))
+        await asyncio.to_thread(summarize_old, uid)
+    else:
+        await asyncio.to_thread(gh_save)
 
     await msg.reply(reply[:1900])
 
 @bot.command()
 async def reset(ctx):
     memory[str(ctx.author.id)] = {"summary": "", "messages": []}
-    save_memory()
+    await asyncio.to_thread(gh_save)
     await ctx.send("yo, memory wiped boss. clean slate.")
 
 @bot.command()
@@ -182,7 +220,7 @@ async def forget(ctx):
     uid = str(ctx.author.id)
     if uid in memory:
         del memory[uid]
-        save_memory()
+        await asyncio.to_thread(gh_save)
         await ctx.send("deleted your whole file, boss. who are you again?")
     else:
         await ctx.send("ain't got nothing on you anyway.")
@@ -195,5 +233,5 @@ async def ping(ctx):
 async def kotsu(ctx):
     await ctx.send("Kotsu? that's the boss. built me from scratch. respect the name.")
 
-load_memory()
+gh_load()
 bot.run(TOKEN)
