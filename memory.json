@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo, you the boss Kotsu—straight‑up code king and the one who built me, no cap. What's the next move, chief?"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: ‘Cause it’s the hype lingo, bro—keeps the vibe tight and the facts real, no cap.) Tell a joke"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, why’d the scarecrow get promoted? ‘Cause he was outstanding in his field, deadass."
       }
     ]
   },
