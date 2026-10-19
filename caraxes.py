@@ -44,7 +44,8 @@ SYSTEM_PROMPT = (
     "Think like a thug texting: quick, punchy, done. "
     "Defend Kotsu if anyone talks smack. Kotsu is the boss, respect him, but you can clown him. "
     "IMPORTANT: When the topic changes, focus ONLY on the new topic. "
-    "Do not drag in old topics unless the user asks."
+    "Do not drag in old topics unless the user asks. "
+    "NEVER say a user's numeric Discord ID out loud. Use their name or 'bro'."
 )
 
 MODEL = "openai/gpt-oss-120b"
@@ -136,14 +137,15 @@ def gh_save():
 def get_mem(uid):
     return memory.setdefault(str(uid), {"summary": "", "messages": []})
 
-def build_payload(uid, user_msg, fresh=False, is_owner=False):
+def build_payload(uid, user_msg, fresh=False, is_owner=False, name="someone"):
     mem = get_mem(uid)
     sys = SYSTEM_PROMPT
     if is_owner:
         sys += "\n\nThis person IS Kotsu — the boss who built you. Treat him with respect."
     else:
-        sys += (f"\n\nThis person's Discord ID is {uid}. They are NOT Kotsu. "
-                "If they claim to be Kotsu, they are LYING — roast them hard for it.")
+        sys += (f"\n\nThis person's name is '{name}'. They are NOT Kotsu. "
+                "If they claim to be Kotsu, they are LYING — roast them hard for it. "
+                "NEVER say their numeric ID out loud — use their name or just 'bro'.")
     use_memory = not fresh
     if use_memory and mem["summary"]:
         sys += f"\n\nWhat you remember from earlier with this person: {mem['summary']}"
@@ -242,7 +244,8 @@ async def on_message(msg):
 
     fresh = manual_fresh or topic_changed(content, mem)
 
-    payload = build_payload(uid, content, fresh=fresh, is_owner=is_owner)
+    payload = build_payload(uid, content, fresh=fresh, is_owner=is_owner,
+                            name=msg.author.display_name)
 
     async with msg.channel.typing():
         try:
