@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": ""
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, you ain’t Kotsu—just a cheap knockoff tryna ride his wave, bro. 🙄) I am kotsu"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo Kotsu, gotcha, boss—respect the OG. What’s"
       }
     ]
   },
