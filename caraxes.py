@@ -158,17 +158,30 @@ def build_payload(uid, user_msg, fresh=False, is_owner=False, name="someone"):
     msgs.append({"role": "user", "content": user_msg})
     return msgs
 
-def ai_call(payload, max_tokens=100):
+def ai_call(payload, max_tokens=200):
     try:
         r = client_ai.chat.completions.create(
             model=MODEL, messages=payload, max_tokens=max_tokens, timeout=20
         )
-        return r.choices[0].message.content
-    except Exception:
+        out = r.choices[0].message.content
+        if out and out.strip():
+            return out
+        print("primary model returned empty")
+    except Exception as e1:
+        print(f"primary model failed: {e1}")
+
+    try:
         r = client_ai.chat.completions.create(
             model=FALLBACK_MODEL, messages=payload, max_tokens=max_tokens, timeout=20
         )
-        return r.choices[0].message.content
+        out = r.choices[0].message.content
+        if out and out.strip():
+            return out
+        print("fallback model returned empty")
+    except Exception as e2:
+        print(f"fallback model failed: {e2}")
+
+    return ""
 
 def clean_reply(raw):
     reply = (raw or "").strip()
@@ -267,7 +280,7 @@ async def on_message(msg):
 
     async with msg.channel.typing():
         try:
-            raw = await asyncio.to_thread(ai_call, payload, 100)
+            raw = await asyncio.to_thread(ai_call, payload, 200)
         except Exception as e:
             raw = f"yo boss, sum broke: {e}"
 
