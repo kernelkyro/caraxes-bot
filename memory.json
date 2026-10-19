@@ -62,6 +62,14 @@
       {
         "role": "assistant",
         "content": "Yo, keep it clean, bro."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, keep it clean, bro.) get better dumbass"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, bro, you sound like a glitchy dial‑up connection—always buffering, never loading."
       }
     ]
   }
