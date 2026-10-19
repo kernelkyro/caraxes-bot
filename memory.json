@@ -22,6 +22,14 @@
       {
         "role": "assistant",
         "content": "Yo, what's good, bro? You look like you just rolled outta bed and forgot the coffee—lowkey sleepy vibes. What's the move today? "
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, what's good, bro? You look like you just rolled outta bed and forgot the coffee—lowkey sleepy vibes. What's the move today?) I am kotsu"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo Kotsu, the big boss! Lookin’ fresh as a busted Wi‑Fi signal—low‑key glitchy but still got that vibe. What’s the move, chief? Let’s get this hustle poppin’, no cap. 🚀"
       }
     ]
   }
