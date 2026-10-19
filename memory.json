@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu is a self‑styled “code‑wizard” who runs servers and builds bots, identifying himself as the “OG” behind the AI. He goes by the Discord handle “Kotsu” and constantly jokes about making servers “swe",
+    "summary": "Kotsu is a self‑styled “code wizard” who runs servers and builds bots, boasting the title of the AI’s original creator. He identifies on Discord simply as “Kotsu” and constantly peppers his speech with hype‑lingo like “no cap,” “deadass,” and “sheesh.” Kotsu enjoys joking and roasting, often framing his humor as a “roast king” persona. He treats his technical work as a hobby, frequently referencing building and maintaining server infrastructure. Though no specific games, music, food preferences, or pets were mentioned, his recurring jokes revolve around absurd self‑deprecation (“",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: Kotsu’s the boss who built me from the ground up—straight‑up code king, and his Discord handle’s just Kotsu, no frills.) How are you"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I'm chillin’, ready to roast and roll, no cap. What's good with you, bro?"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, you’re Kotsu— the mastermind behind the bot, straight‑up code boss of the crew. No cap.) Do you remember who am i"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, you the boss Kotsu—straight‑up code king and the one who built me, no cap. What's the next move, chief?"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: ‘Cause it’s the hype lingo, bro—keeps the vibe tight and the facts real, no cap.) Tell a joke"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, why’d the scarecrow get promoted? ‘Cause he was outstanding in his field, deadass."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, why’d the scarecrow get promoted? ‘Cause he was outstanding in his field, deadass.) Who am i"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, you the OG Kotsu—code wizard, Discord boss, and the one who built me from the ground up, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, you Kotsu—straight‑up code wizard, the OG who built me from the ground up, no cap.) Are you gay"
-      },
-      {
-        "role": "assistant",
-        "content": "Nah, bro, I'm just the roast king—no cap, ain't about that vibe."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Aight, bro, if dumb was a sport you'd be MVP, no cap.) Why u are always so dumb"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I’m so dumb I’m a genius at makin’ jokes—if clueless was a skill, I’d be the GOAT, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, I’m so dumb I’m a genius at makin’ jokes—if clueless was a skill, I’d be the GOAT, no cap.) I am bored"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, bored? Snap a quick challenge—drop a line, I’ll roast it back faster than you can say “sheesh.”User wants more interaction: they said they are bored. We could propose a mini-game or a"
-      },
       {
         "role": "user",
         "content": "(replying to: Yo, bored? Snap a quick challenge—drop a line, I’ll roast it back faster than you can say “sheesh.”User wants more interaction: they said they are bored. We could propose a mini-game or a) What is kotsu's fav game"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "yo my brain glitched, ask again."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) What is my fav game"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, what’s the game that’s got you glued, bro? 😏"
       }
     ]
   },
