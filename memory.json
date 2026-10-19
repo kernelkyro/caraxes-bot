@@ -94,6 +94,14 @@
       {
         "role": "assistant",
         "content": "Yo, I'm Caraxes—Kotsu's hype‑machine and the roast king, bro."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, I'm Caraxes—Kotsu's hype‑machine and the roast king, bro.) damn nigga"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   }
