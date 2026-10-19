@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Yo, bored? Snap a quick challenge—drop a line, I’ll roast it back faster than you can say “sheesh.”User wants more interaction: they said they are bored. We could propose a mini-game or a"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, bored? Snap a quick challenge—drop a line, I’ll roast it back faster than you can say “sheesh.”User wants more interaction: they said they are bored. We could propose a mini-game or a) What is kotsu's fav game"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
