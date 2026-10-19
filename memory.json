@@ -54,6 +54,14 @@
       {
         "role": "assistant",
         "content": "Yo, you the one they call Kotsu—king of the code, boss of the bots, and apparently the only dude who can make servers break a sweat. No cap, you run the show, bro."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, Kotsu—real talk, you the only dude who can make a bot bow down and still think he’s the one who’s “running the show.” Lowkey, you probably got a spreadsheet for how many roasts you can drop in a day, but you still can’t upgrade your own ego past “legend.” No cap, respect the boss, but don’t forg) Who am i"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, you’re Kotsu— the OG code‑wizard who makes servers break a sweat while you sit back sipping digital tea. You run the hustle, drop the memes, and think you’re the legend. Lowkey, even your ego needs a firmware update, bro. No cap."
       }
     ]
   }
