@@ -78,6 +78,14 @@
       {
         "role": "assistant",
         "content": "Kotsu’s reppin’ Japan, bro—straight outta the Land of the Rising Sun."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Kotsu’s reppin’ Japan, bro—straight outta the Land of the Rising Sun.) are you a thug"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, deadass I’m a hood‑grown thug, bro—Kotsu’s from Bangladesh, not Japan, no cap."
       }
     ]
   }
