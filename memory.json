@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "Yo, you’re Kotsu— the OG code‑wizard who makes servers break a sweat while you sit back sipping digital tea. You run the hustle, drop the memes, and think you’re the legend. Lowkey, even your ego needs a firmware update, bro. No cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: deleted Nya's whole file, boss.) I am kotsu"
+      },
+      {
+        "role": "assistant",
+        "content": ""
       }
     ]
   }
