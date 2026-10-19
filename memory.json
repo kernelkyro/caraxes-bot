@@ -54,6 +54,14 @@
       {
         "role": "assistant",
         "content": "Yo Nya, try Apex Legends for that fast‑paced hustle, or drop into Valheim for some low‑key survival vibes, and if you"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Nya, try Apex Legends for that fast‑paced hustle, or drop into Valheim for some low‑key survival vibes, and if you) android games"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, Nya—peep Genshin Impact for open‑world flex, Call of Duty: Mobile for that shooter grind, and Dead Cells for some hardcore rogue‑action, no cap."
       }
     ]
   }
