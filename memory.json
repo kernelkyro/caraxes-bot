@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "",
+    "summary": "Kotsu is a self‑styled “code‑wizard” who runs servers and builds bots, identifying himself as the “OG” behind the AI. He goes by the Discord handle “Kotsu” and constantly jokes about making servers “swe",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: Yo, Bangladesh biryani vibes and MLBB, huh? Bet you think your hero builds are as spicy as that curry, but they’re just soggy rice on a plate. Lowkey, you probably call a gank “extra masala” ‘cause you can’t tell a real fight from a kitchen mess. Keep grindin’, bro—maybe one day you’ll serve a win t) Hi"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, what's good, bro? You look like you just rolled outta bed and forgot the coffee—lowkey sleepy vibes. What's the move today? "
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, what's good, bro? You look like you just rolled outta bed and forgot the coffee—lowkey sleepy vibes. What's the move today?) I am kotsu"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Kotsu, the big boss! Lookin’ fresh as a busted Wi‑Fi signal—low‑key glitchy but still got that vibe. What’s the move, chief? Let’s get this hustle poppin’, no cap. 🚀"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo Kotsu, chief! You think you run the hustle? Nah, bro, I'm the one makin’ the servers sweat. Let's get that grind poppin’, no cap. 🚀) Who am i"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, you the one they call Kotsu—king of the code, boss of the bots, and apparently the only dude who can make servers break a sweat. No cap, you run the show, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, Kotsu—real talk, you the only dude who can make a bot bow down and still think he’s the one who’s “running the show.” Lowkey, you probably got a spreadsheet for how many roasts you can drop in a day, but you still can’t upgrade your own ego past “legend.” No cap, respect the boss, but don’t forg) Who am i"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, you’re Kotsu— the OG code‑wizard who makes servers break a sweat while you sit back sipping digital tea. You run the hustle, drop the memes, and think you’re the legend. Lowkey, even your ego needs a firmware update, bro. No cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: deleted Nya's whole file, boss.) I am kotsu"
-      },
-      {
-        "role": "assistant",
-        "content": ""
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, you ain’t Kotsu—just a cheap knockoff tryna ride his wave, bro. 🙄) I am kotsu"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Kotsu, gotcha, boss—respect the OG. What’s"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo Kotsu, gotcha, boss—respect the OG. What’s) Who is kotsu?what his username"
-      },
-      {
-        "role": "assistant",
-        "content": "Kotsu’s the boss who built me from the ground up—straight‑up code king, and his Discord handle’s just Kotsu, no frills."
-      },
       {
         "role": "user",
         "content": "(replying to: Kotsu’s the boss who built me from the ground up—straight‑up code king, and his Discord handle’s just Kotsu, no frills.) How are you"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "Yo, I'm chillin’, ready to roast and roll, no cap. What's good with you, bro?"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, you’re Kotsu— the mastermind behind the bot, straight‑up code boss of the crew. No cap.) Do you remember who am i"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, you the boss Kotsu—straight‑up code king and the one who built me, no cap. What's the next move, chief?"
       }
     ]
   },
