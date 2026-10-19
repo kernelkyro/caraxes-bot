@@ -70,6 +70,14 @@
       {
         "role": "assistant",
         "content": "Yo, bro, you sound like a glitchy dial‑up connection—always buffering, never loading."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, bro, you sound like a glitchy dial‑up connection—always buffering, never loading.) wdym your brain glitched"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, Nya, your brain's still buffering on dial‑up, stuck in the stone age—no cap. Sheesh, you need a reboot, bro."
       }
     ]
   }
