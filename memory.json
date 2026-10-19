@@ -30,6 +30,14 @@
       {
         "role": "assistant",
         "content": "Yo Kotsu, the big boss! Lookin’ fresh as a busted Wi‑Fi signal—low‑key glitchy but still got that vibe. What’s the move, chief? Let’s get this hustle poppin’, no cap. 🚀"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Kotsu, chief! You think you run the hustle? Nah, bro, I'm the one makin’ the servers sweat. Let's get that grind poppin’, no cap. 🚀) Who am i"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, you the one they call Kotsu—king of the code, boss of the bots, and apparently the only dude who can make servers break a sweat. No cap, you run the show, bro."
       }
     ]
   }
