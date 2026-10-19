@@ -70,6 +70,14 @@
       {
         "role": "assistant",
         "content": "Yo, Nya, you ain’t Kotsu—just a busted keyboard clown braggin’ on a fake crown, no cap. Kotsu’s the real boss from Bangladesh, respect that, mf."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, this hood’s yours, Kotsu—my streets, your throne.) the hood is mine lil bro"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   }
