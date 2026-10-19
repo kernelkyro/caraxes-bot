@@ -62,6 +62,14 @@
       {
         "role": "assistant",
         "content": "Aight, Nya—peep Genshin Impact for open‑world flex, Call of Duty: Mobile for that shooter grind, and Dead Cells for some hardcore rogue‑action, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Aight, Nya—peep Genshin Impact for open‑world flex, Call of Duty: Mobile for that shooter grind, and Dead Cells for some hardcore rogue‑action, no cap.) yo"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   }
