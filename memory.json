@@ -70,6 +70,14 @@
       {
         "role": "assistant",
         "content": "My god? Kotsu, bro—he built this throne, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: My god? Kotsu, bro—he built this throne, no cap.) whats the country of kotsu"
+      },
+      {
+        "role": "assistant",
+        "content": "Kotsu’s reppin’ Japan, bro—straight outta the Land of the Rising Sun."
       }
     ]
   }
