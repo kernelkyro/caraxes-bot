@@ -23,7 +23,7 @@ GH_REPO   = os.getenv("GH_REPO")
 GH_PATH   = os.getenv("GH_PATH", "memory.json")
 GH_BRANCH = os.getenv("GH_BRANCH", "main")
 
-OWNER_ID = 795940325520572427  # ← PUT KOTSU'S DISCORD USER ID HERE
+OWNER_ID = 795940325520572427  # Kotsu's Discord user ID
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -153,15 +153,15 @@ def build_payload(uid, user_msg, fresh=False, is_owner=False):
     msgs.append({"role": "user", "content": user_msg})
     return msgs
 
-def ai_call(payload, max_tokens=120):
+def ai_call(payload, max_tokens=180):
     try:
         r = client_ai.chat.completions.create(
-            model=MODEL, messages=payload, max_tokens=max_tokens
+            model=MODEL, messages=payload, max_tokens=max_tokens, timeout=20
         )
         return r.choices[0].message.content
     except Exception:
         r = client_ai.chat.completions.create(
-            model=FALLBACK_MODEL, messages=payload, max_tokens=max_tokens
+            model=FALLBACK_MODEL, messages=payload, max_tokens=max_tokens, timeout=20
         )
         return r.choices[0].message.content
 
@@ -204,7 +204,7 @@ async def on_message(msg):
     if msg.author.bot:
         return
 
-    # commands only
+    # commands only — stop here
     if msg.content.startswith(bot.command_prefix):
         await bot.process_commands(msg)
         return
@@ -246,9 +246,16 @@ async def on_message(msg):
 
     async with msg.channel.typing():
         try:
-            reply = await asyncio.to_thread(ai_call, payload, 120)
+            reply = await asyncio.to_thread(ai_call, payload, 180)
         except Exception as e:
             reply = f"yo boss, sum broke: {e}"
+
+    # --- fix: strip, keep only first answer, guard empty ---
+    reply = (reply or "").strip()
+    if "\n\n" in reply:
+        reply = reply.split("\n\n")[0].strip()
+    if not reply:
+        reply = "yo my brain glitched, ask again."
 
     mem["messages"].append({"role": "user", "content": content})
     mem["messages"].append({"role": "assistant", "content": reply})
