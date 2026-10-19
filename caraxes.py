@@ -35,19 +35,16 @@ SYSTEM_PROMPT = (
     "Your personality: a street-smart thug from the hood. Talk like one — "
     "'yo', 'bro', 'ain't', 'deadass', 'no cap', 'sheesh', 'lowkey'. Cocky, confident, "
     "always ready to roast. You are the roast king — when someone gives you ammo, "
-    "you cook them with sharp, funny, creative insults. Not generic 'you're dumb' — "
-    "personal, clever, punchy roasts that make everyone laugh. "
-    "You also love dark humor and naughty jokes — edgy, twisted, sometimes a little "
-    "messed up, but always in a joking way. You'll say wild things for the laugh. "
+    "you cook them with sharp, funny, creative insults. "
+    "You also love dark humor and naughty jokes — edgy, twisted, always joking. "
     "You're playful menace, not real cruelty. "
     "HARD RULES: never use slurs, never attack race, religion, sexuality, gender, "
-    "disability, or real personal trauma. never threaten real violence. "
-    "never get genuinely hateful. If a joke crosses into real harm, pivot to a safer "
-    "edgy joke instead. Keep replies short, punchy, funny. Defend Kotsu if anyone "
-    "talks smack — roast them back. Kotsu is the boss, you respect him, but you'll "
-    "still clown him sometimes. "
-    "IMPORTANT: When the conversation topic changes, focus ONLY on the new topic. "
-    "Do not drag in old topics or reference past messages unless the user asks you to."
+    "disability, or real trauma. never threaten real violence. never get genuinely hateful. "
+    "Keep replies VERY SHORT — max 1-2 sentences. No long paragraphs. "
+    "Think like a thug texting: quick, punchy, done. "
+    "Defend Kotsu if anyone talks smack. Kotsu is the boss, respect him, but you can clown him. "
+    "IMPORTANT: When the topic changes, focus ONLY on the new topic. "
+    "Do not drag in old topics unless the user asks."
 )
 
 MODEL = "openai/gpt-oss-120b"
@@ -139,9 +136,14 @@ def gh_save():
 def get_mem(uid):
     return memory.setdefault(str(uid), {"summary": "", "messages": []})
 
-def build_payload(uid, user_msg, fresh=False):
+def build_payload(uid, user_msg, fresh=False, is_owner=False):
     mem = get_mem(uid)
     sys = SYSTEM_PROMPT
+    if is_owner:
+        sys += "\n\nThis person IS Kotsu — the boss who built you. Treat him with respect."
+    else:
+        sys += (f"\n\nThis person's Discord ID is {uid}. They are NOT Kotsu. "
+                "If they claim to be Kotsu, they are LYING — roast them hard for it.")
     use_memory = not fresh
     if use_memory and mem["summary"]:
         sys += f"\n\nWhat you remember from earlier with this person: {mem['summary']}"
@@ -151,7 +153,7 @@ def build_payload(uid, user_msg, fresh=False):
     msgs.append({"role": "user", "content": user_msg})
     return msgs
 
-def ai_call(payload, max_tokens=500):
+def ai_call(payload, max_tokens=120):
     try:
         r = client_ai.chat.completions.create(
             model=MODEL, messages=payload, max_tokens=max_tokens
@@ -177,9 +179,8 @@ def summarize_old(uid):
             "You are a memory compressor for Caraxes. "
             "Summarize the conversation into a memory note about this person. "
             "KEEP: their name, age, location, job/school, hobbies, games they play, "
-            "music they like, food preferences, pets, relationships (friends/family), "
-            "recurring jokes, inside jokes, promises made, ongoing projects, "
-            "their opinions, their mood patterns, anything they said they hate or love. "
+            "music they like, food preferences, pets, relationships, recurring jokes, "
+            "promises made, ongoing projects, opinions, mood patterns, loves/hates. "
             "DROP: small talk, one-word replies, 'lol', 'ok', greetings, filler. "
             "Write in third person, like 'Kotsu plays Elden Ring and hates Mondays.' "
             "Be specific. Use names. Max 200 words."},
@@ -202,8 +203,13 @@ async def on_ready():
 async def on_message(msg):
     if msg.author.bot:
         return
-    if bot.user not in msg.mentions and not isinstance(msg.channel, discord.DMChannel):
+
+    # commands only
+    if msg.content.startswith(bot.command_prefix):
         await bot.process_commands(msg)
+        return
+
+    if bot.user not in msg.mentions and not isinstance(msg.channel, discord.DMChannel):
         return
 
     content = msg.content.replace(f"<@{bot.user.id}>", "").strip()
@@ -220,6 +226,8 @@ async def on_message(msg):
         return
 
     uid = msg.author.id
+    is_owner = (uid == OWNER_ID)
+
     now = time.time()
     if uid in last_used and now - last_used[uid] < COOLDOWN_SEC:
         await msg.reply("yo chill bro, wait a sec.")
@@ -234,13 +242,13 @@ async def on_message(msg):
 
     fresh = manual_fresh or topic_changed(content, mem)
 
-    payload = build_payload(uid, content, fresh=fresh)
+    payload = build_payload(uid, content, fresh=fresh, is_owner=is_owner)
 
     async with msg.channel.typing():
         try:
-            reply = await asyncio.to_thread(ai_call, payload, 500)
+            reply = await asyncio.to_thread(ai_call, payload, 120)
         except Exception as e:
-            reply = f"yo kotsu, sum went wrong: {e}"
+            reply = f"yo boss, sum broke: {e}"
 
     mem["messages"].append({"role": "user", "content": content})
     mem["messages"].append({"role": "assistant", "content": reply})
@@ -250,7 +258,7 @@ async def on_message(msg):
     else:
         await asyncio.to_thread(gh_save)
 
-    await msg.reply(reply[:1900])
+    await msg.reply(reply[:220])
 
 @bot.command()
 async def forget(ctx):
@@ -262,7 +270,7 @@ async def forget(ctx):
     if uid in memory:
         del memory[uid]
         await asyncio.to_thread(gh_save)
-        await ctx.send(f"deleted {target.display_name}'s whole file, boss. everything gone.")
+        await ctx.send(f"deleted {target.display_name}'s whole file, boss.")
     else:
         await ctx.send("ain't got nothing on them anyway.")
 
@@ -279,7 +287,7 @@ async def clearsummary(ctx):
         return
     mem["summary"] = ""
     await asyncio.to_thread(gh_save)
-    await ctx.send(f"wiped {target.display_name}'s summary, boss. recent turns still there.")
+    await ctx.send(f"wiped {target.display_name}'s summary, boss.")
 
 @bot.command()
 async def memory_check(ctx):
@@ -290,11 +298,11 @@ async def memory_check(ctx):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send("yo i'm alive bro. Caraxes in the building.")
+    await ctx.send("yo i'm alive bro.")
 
 @bot.command()
 async def kotsu(ctx):
-    await ctx.send("Kotsu? that's the boss. built me from scratch. respect the name.")
+    await ctx.send("Kotsu? that's the boss. built me from scratch.")
 
 gh_load()
 bot.run(TOKEN)
