@@ -23,6 +23,8 @@ GH_REPO   = os.getenv("GH_REPO")
 GH_PATH   = os.getenv("GH_PATH", "memory.json")
 GH_BRANCH = os.getenv("GH_BRANCH", "main")
 
+OWNER_ID = 795940325520572427  # ← PUT KOTSU'S DISCORD USER ID HERE
+
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -172,14 +174,20 @@ def summarize_old(uid):
     prior = mem["summary"] or "none"
     sum_req = [
         {"role": "system", "content":
-            "Summarize the conversation into a short memory note. "
-            "Keep names, facts, preferences, jokes, promises. "
-            "Third person. Max 120 words."},
+            "You are a memory compressor for Caraxes. "
+            "Summarize the conversation into a memory note about this person. "
+            "KEEP: their name, age, location, job/school, hobbies, games they play, "
+            "music they like, food preferences, pets, relationships (friends/family), "
+            "recurring jokes, inside jokes, promises made, ongoing projects, "
+            "their opinions, their mood patterns, anything they said they hate or love. "
+            "DROP: small talk, one-word replies, 'lol', 'ok', greetings, filler. "
+            "Write in third person, like 'Kotsu plays Elden Ring and hates Mondays.' "
+            "Be specific. Use names. Max 200 words."},
         {"role": "user", "content":
             f"Previous summary: {prior}\n\nNew turns to fold in:\n{text}"},
     ]
     try:
-        new_sum = ai_call(sum_req, max_tokens=300)
+        new_sum = ai_call(sum_req, max_tokens=400)
     except Exception:
         new_sum = prior
     mem["summary"] = new_sum
@@ -245,10 +253,33 @@ async def on_message(msg):
     await msg.reply(reply[:1900])
 
 @bot.command()
-async def reset(ctx):
-    memory[str(ctx.author.id)] = {"summary": "", "messages": []}
+async def forget(ctx):
+    if ctx.author.id != OWNER_ID:
+        await ctx.send("nah bro, only the boss deletes files.")
+        return
+    target = ctx.message.mentions[0] if ctx.message.mentions else ctx.author
+    uid = str(target.id)
+    if uid in memory:
+        del memory[uid]
+        await asyncio.to_thread(gh_save)
+        await ctx.send(f"deleted {target.display_name}'s whole file, boss. everything gone.")
+    else:
+        await ctx.send("ain't got nothing on them anyway.")
+
+@bot.command()
+async def clearsummary(ctx):
+    if ctx.author.id != OWNER_ID:
+        await ctx.send("nah bro, only the boss wipes summaries.")
+        return
+    target = ctx.message.mentions[0] if ctx.message.mentions else ctx.author
+    uid = str(target.id)
+    mem = memory.get(uid)
+    if not mem:
+        await ctx.send("ain't got nothing on them anyway.")
+        return
+    mem["summary"] = ""
     await asyncio.to_thread(gh_save)
-    await ctx.send("yo, memory wiped boss. clean slate.")
+    await ctx.send(f"wiped {target.display_name}'s summary, boss. recent turns still there.")
 
 @bot.command()
 async def memory_check(ctx):
@@ -256,16 +287,6 @@ async def memory_check(ctx):
     s = mem["summary"] or "(empty)"
     n = len(mem["messages"]) // 2
     await ctx.send(f"summary: {s[:300]}\nturns held: {n}")
-
-@bot.command()
-async def forget(ctx):
-    uid = str(ctx.author.id)
-    if uid in memory:
-        del memory[uid]
-        await asyncio.to_thread(gh_save)
-        await ctx.send("deleted your whole file, boss. who are you again?")
-    else:
-        await ctx.send("ain't got nothing on you anyway.")
 
 @bot.command()
 async def ping(ctx):
