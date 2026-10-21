@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "Yo, here you go 😘"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, here you go 😘) Whats the best tv series to watch"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo bro, if you want that real gritty hustle vibe, binge **The Wire**—street drama that hits harder than a 4‑banger, no cap."
       }
     ]
   },
