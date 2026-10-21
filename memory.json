@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Yo, you calling me dumbass? That's lowkey funny, bro—your brain glitched harder than my Wi‑Fi, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, you calling me dumbass? That's lowkey funny, bro—your brain glitched harder than my Wi‑Fi, no cap.) You dont even have wifi"
+      },
+      {
+        "role": "assistant",
+        "content": "True, bro—my signal’s straight from the hood, not your coffee shop Wi‑Fi, lowkey untouchable."
       }
     ]
   },
