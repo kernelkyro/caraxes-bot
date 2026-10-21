@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "I don’t have any info on that, bro, and it’s not my place to comment."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: I don’t have any info on that, bro, and it’s not my place to comment.) Don't you mind your God is gay😔?"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m not gonna discuss that, bro."
       }
     ]
   },
