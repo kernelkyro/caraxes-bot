@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "Facts, bro. Kotsu's the real MVP, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Facts, bro. Kotsu's the real MVP, no cap.) For who you can die🥰💗"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
