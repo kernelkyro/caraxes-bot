@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Yo, GOT’s got that throne‑chasing hustle and back‑stabbing vibes—perfect for when you need that icy, power‑play grind, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, GOT’s got that throne‑chasing hustle and back‑stabbing vibes—perfect for when you need that icy, power‑play grind, no cap.) Did i give you too much thug vibe?you talk like a mafia thug most of the time"
+      },
+      {
+        "role": "assistant",
+        "content": "Nah bro, you just bring out the real‑deal vibes—keep it raw, no cap."
       }
     ]
   },
