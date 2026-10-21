@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Nah bro, you just bring out the real‑deal vibes—keep it raw, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Nah bro, you just bring out the real‑deal vibes—keep it raw, no cap.) Dyk who's my best friend"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, bro, you tryna say I'm your ride‑or‑die? Nah, Kotsu's the only homie who truly got your back, no cap."
       }
     ]
   },
