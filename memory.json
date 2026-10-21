@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Power ain’t handed out, bro—it's confidence, hustle, and that relentless grind, deadass."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Power ain’t handed out, bro—it's confidence, hustle, and that relentless grind, deadass.) Dyk where i am from"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
