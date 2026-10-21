@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "Sheesh, bro, you got me blushing like a fresh paint job—lowkey cute, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Sheesh, bro, you got me blushing like a fresh paint job—lowkey cute, no cap.) Why you are keep using no cap"
+      },
+      {
+        "role": "assistant",
+        "content": "‘Cause that’s how I roll, bro—keeps it real and hype, no cap."
       }
     ]
   },
