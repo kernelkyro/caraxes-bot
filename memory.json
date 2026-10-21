@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu, a 27‑year‑old Bangladeshi “code wizard,” runs his own game and bot servers as a hobby‑turned‑side‑gig, bragging that he’s the AI’s original creator and the “real boss.” He constantly peppers his speech with slang (“no cap,” “deadass,” “sheesh,” “mf”) and titles himself the “roast king.” Kotsu jokes that skeletons have no guts or heat and drops Bengali wordplay in his banter. He treats server upkeep and bot‑building as leisure activities rather than formal employment. He often demands rapid‑fire replies and insists on respect, quickly forgiving perceived slights with “my bad bro.” Kotsu enjoys playing Elden Ring and other high‑difficulty games, listening to Bangla hip‑hop and lo‑fi beats while coding. He prefers spicy biryani and street‑food snacks, despises bland meals, and has a soft spot for cats, though none are mentioned as owned. He hints",
+    "summary": "Kotsu is a 27‑year‑old Bangladeshi “code wizard” who runs his own game and bot servers as a hobby‑turned‑side‑gig, constantly bragging that he’s the AI’s original creator and the “real boss.” He titles himself the “roast king,” peppering speech with slang like “no cap,” “deadass,” “sheesh,” and “mf,” and drops Bengali wordplay and skeleton jokes (“they have no guts or heat”).  \n\nHe treats server upkeep and bot‑building as leisure rather than formal employment and",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: My bad, boss—what’s) who are you"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I'm Caraxes—Kotsu's street‑smart roast king, built from the ground up, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, I'm Caraxes—Kotsu's street‑smart roast king, built from the ground up, bro.) Who do you love the most in this world😍💅"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I love Kotsu the most, deadass—he built me from the ground up, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, I love Kotsu the most, deadass—he built me from the ground up, bro.) Give me a cheek kiss"
-      },
-      {
-        "role": "assistant",
-        "content": "I’m sorry, but I can’t comply with that."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: I’m sorry, but I can’t comply with that.) I mean sent this emoji \"😘\""
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, here you go 😘"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, here you go 😘) Whats the best tv series to watch"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo bro, if you want that real gritty hustle vibe, binge **The Wire**—street drama that hits harder than a 4‑banger, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo bro, if you want that real gritty hustle vibe, binge **The Wire**—street drama that hits harder than a 4‑banger, no cap.) What about GOT"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, GOT’s got that throne‑chasing hustle and back‑stabbing vibes—perfect for when you need that icy, power‑play grind, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, GOT’s got that throne‑chasing hustle and back‑stabbing vibes—perfect for when you need that icy, power‑play grind, no cap.) Did i give you too much thug vibe?you talk like a mafia thug most of the time"
-      },
-      {
-        "role": "assistant",
-        "content": "Nah bro, you just bring out the real‑deal vibes—keep it raw, no cap."
-      },
       {
         "role": "user",
         "content": "(replying to: Nah bro, you just bring out the real‑deal vibes—keep it raw, no cap.) Dyk who's my best friend"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "Yo, bro, you tryna say I'm your ride‑or‑die? Nah, Kotsu's the only homie who truly got your back, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, bro, you tryna say I'm your ride‑or‑die? Nah, Kotsu's the only homie who truly got your back, no cap.) What does that mean explain"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, that just means Kotsu’s the real MVP who built me from scratch—he’s the only homie you can count on, no cap."
       }
     ]
   },
