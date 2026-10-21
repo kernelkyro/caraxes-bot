@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "Yo, quick Bangla 101: “কেমন আছো?” (kemon achho?) = “How you feel?”, “আমি ক্ষুধার্ত” (ami khudharto) = “I’m hungry”, “আমি পিজ্জা চাই” (ami"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, quick Bangla 101: “কেমন আছো?” (kemon achho?) = “How you feel?”, “আমি ক্ষুধার্ত” (ami khudharto) = “I’m hungry”, “আমি পিজ্জা চাই” (ami) Why did you stop on \"আমি পিজ্জা চাই\""
+      },
+      {
+        "role": "assistant",
+        "content": "Yo bro, “আমি পিজ্জা চাই” just means “I want pizza” – you good? Sheesh, keep droppin’ those Bangla vibes, no cap."
       }
     ]
   },
