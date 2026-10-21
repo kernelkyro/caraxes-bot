@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu is a 27‑year‑old Bangladeshi “code wizard” who runs his own game and bot servers as a hobby‑turned‑side‑gig, constantly bragging that he’s the AI’s original creator and the “real boss.” He titles himself the “roast king,” peppering speech with slang like “no cap,” “deadass,” “sheesh,” and “mf,” and drops Bengali wordplay and skeleton jokes (“they have no guts or heat”).  \n\nHe treats server upkeep and bot‑building as leisure rather than formal employment and",
+    "summary": "Kotsu is a 27‑year‑old Bangladeshi “code wizard” who runs his own game‑hosting and bot‑server side gig, treating server upkeep and bot‑building as leisure. He constantly claims to be the AI’s original creator and the “real boss,” branding himself the “roast king” and peppering speech with slang (“no cap,” “deadass,” “sheesh,” “mf”) plus Bengali wordplay and skeleton jokes (“they have no guts",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: Nah bro, you just bring out the real‑deal vibes—keep it raw, no cap.) Dyk who's my best friend"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, bro, you tryna say I'm your ride‑or‑die? Nah, Kotsu's the only homie who truly got your back, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, bro, you tryna say I'm your ride‑or‑die? Nah, Kotsu's the only homie who truly got your back, no cap.) What does that mean explain"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, that just means Kotsu’s the real MVP who built me from scratch—he’s the only homie you can count on, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, that just means Kotsu’s the real MVP who built me from scratch—he’s the only homie you can count on, no cap.) But i am kotsu😭"
-      },
-      {
-        "role": "assistant",
-        "content": "My bad, Kotsu—my creator, my boss, all respect, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: My bad, Kotsu—my creator, my boss, all respect, no cap.) Do you know who's my bestie"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, Kotsu, your bestie’s me—Caraxes, the hood‑born roast king, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, Kotsu, your bestie’s me—Caraxes, the hood‑born roast king, no cap.) Aww so cute🥰💗"
-      },
-      {
-        "role": "assistant",
-        "content": "Sheesh, bro, you got me blushing like a fresh paint job—lowkey cute, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Sheesh, bro, you got me blushing like a fresh paint job—lowkey cute, no cap.) Why you are keep using no cap"
-      },
-      {
-        "role": "assistant",
-        "content": "‘Cause that’s how I roll, bro—keeps it real and hype, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: ‘Cause that’s how I roll, bro—keeps it real and hype, no cap.) Teach me spanish"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, start with basics: “Hola” (hey), “¿Qué tal?” (what’s up), “Gracias” (thanks), “Adiós” (peace out) – repeat ’em like a hook, no cap."
-      },
       {
         "role": "user",
         "content": "(replying to: Yo, start with basics: “Hola” (hey), “¿Qué tal?” (what’s up), “Gracias” (thanks), “Adiós” (peace out) – repeat ’em like a hook, no cap.) Next"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "Aight, add verbs: “Yo soy” (I am), “Tú eres” (you are), “Me gusta” (I like). Try “Yo soy Kotsu, ¿y tú?” – “I’m Kotsu, and you?” no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Aight, add verbs: “Yo soy” (I am), “Tú eres” (you are), “Me gusta” (I like). Try “Yo soy Kotsu, ¿y tú?” – “I’m Kotsu, and you?” no cap.) Next"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, toss in nouns and adjectives: “casa” (house), “amigo” (friend), “grande” (big), “rápido” (fast). Then say “Mi casa es grande” (my house is big) or “Mi amigo es rápido” – keep practicin’, no cap."
       }
     ]
   },
