@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "Aight, level up: “¿Dónde está?” (where is it?), “¿Cómo estás?” (how you feel?), “Yo quiero comer” (I wanna eat). Drop “Yo quiero pizza, ¿tú qué quieres?” – practice that, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Aight, level up: “¿Dónde está?” (where is it?), “¿Cómo estás?” (how you feel?), “Yo quiero comer” (I wanna eat). Drop “Yo quiero pizza, ¿tú qué quieres?” – practice that, no cap.) Teach me bangla"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, quick Bangla 101: “কেমন আছো?” (kemon achho?) = “How you feel?”, “আমি ক্ষুধার্ত” (ami khudharto) = “I’m hungry”, “আমি পিজ্জা চাই” (ami"
       }
     ]
   },
