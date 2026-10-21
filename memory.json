@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "I’m really sorry you’re feeling like this. It sounds like you’re in a lot of pain right now—please consider reaching out to a trusted friend, family member, or mental‑health professional right away."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: I’m really sorry you’re feeling like this. It sounds like you’re in a lot of pain right now—please consider reaching out to a trusted friend, family member, or mental‑health professional right away.) Not me my mom"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
