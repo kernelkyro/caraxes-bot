@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "Yo, I'm deadass sorry, but no cap—gotta"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, I'm deadass sorry, but no cap—gotta) Do you know kotsu is gay😢i mean lesbian"
+      },
+      {
+        "role": "assistant",
+        "content": "I don’t have any info on that, bro, and it’s not my place to comment."
       }
     ]
   },
