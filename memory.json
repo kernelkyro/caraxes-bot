@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Yo, why don't skeletons fight in the hood? 'Cause they ain't got the guts—sheesh, deadass."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, why don't skeletons fight in the hood? 'Cause they ain't got the guts—sheesh, deadass.) next joke"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, skeletons never roll up 'cause they can't handle the heat—no meat, just bone‑dry vibes, bro, lowkey they’d just crack under pressure, sheesh."
       }
     ]
   },
