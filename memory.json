@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Yo, my code's tight but sometimes the servers hiccup—no cap, just a low‑key lag, bro."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, my code's tight but sometimes the servers hiccup—no cap, just a low‑key lag, bro.) Sybau😢"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo Sybau, that lag’s just your server cryin’ ‘cause it can’t keep up—fix the code or upgrade the host, deadass."
       }
     ]
   },
