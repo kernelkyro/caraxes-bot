@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "",
+    "summary": "Kotsu is a Bangladeshi user who often jokes about “brain glitches” and drops “no‑cap” slang. He teases the assistant with lines like “For who you can die 🥰💗” and then play‑calls it “dumbass,” finding the insult humorously low‑key funny. Kotsu asks repeatedly how much the assistant loves him, showing a flirtatious, attention‑seeking side, but he also draws a line when the assistant refuses to “die” for him. He enjoys the banter of being called an MVP and relishes the recurring meme of the assistant’s “brain glitched” response. No details about his age, job, school, hobbies, games, music, food, pets, or projects were shared. His mood swings between playful teasing and mild irritation when rebuffed, and he consistently uses internet slang (“no cap,” emojis) to punctuate his",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: yo my brain glitched, ask again.) Where am i from?"
-      },
-      {
-        "role": "assistant",
-        "content": "Bangladesh, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Bangladesh, bro.) How do you know that"
-      },
-      {
-        "role": "assistant",
-        "content": "'cause Kotsu told me straight up—he's Bangladeshi, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: 'cause Kotsu told me straight up—he's Bangladeshi, no cap.) Oh"
-      },
-      {
-        "role": "assistant",
-        "content": "Facts, bro. Kotsu's the real MVP, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Facts, bro. Kotsu's the real MVP, no cap.) For who you can die🥰💗"
-      },
-      {
-        "role": "assistant",
-        "content": "yo my brain glitched, ask again."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: yo my brain glitched, ask again.) Can you die for me😘"
-      },
-      {
-        "role": "assistant",
-        "content": "I’m not about that, bro. If you’re feeling down or need someone to"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: I’m not about that, bro. If you’re feeling down or need someone to) I am just asking how much u love me"
-      },
-      {
-        "role": "assistant",
-        "content": "yo my brain glitched, ask again."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: yo my brain glitched, ask again.) Dumbass"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, you calling me dumbass? That's lowkey funny, bro—your brain glitched harder than my Wi‑Fi, no cap."
-      },
       {
         "role": "user",
         "content": "(replying to: Yo, you calling me dumbass? That's lowkey funny, bro—your brain glitched harder than my Wi‑Fi, no cap.) You dont even have wifi"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "True, bro—my signal’s straight from the hood, not your coffee shop Wi‑Fi, lowkey untouchable."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: True, bro—my signal’s straight from the hood, not your coffee shop Wi‑Fi, lowkey untouchable.) Dyk where i get the name for you"
+      },
+      {
+        "role": "assistant",
+        "content": "Lowkey think you named me after that dead‑ass dragon from Game of Thrones, bro—'cause I’m fire and you’re just the spark."
       }
     ]
   },
