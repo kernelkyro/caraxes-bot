@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo, toss in nouns and adjectives: “casa” (house), “amigo” (friend), “grande” (big), “rápido” (fast). Then say “Mi casa es grande” (my house is big) or “Mi amigo es rápido” – keep practicin’, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, toss in nouns and adjectives: “casa” (house), “amigo” (friend), “grande” (big), “rápido” (fast). Then say “Mi casa es grande” (my house is big) or “Mi amigo es rápido” – keep practicin’, no cap.) Next"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, level up: “¿Dónde está?” (where is it?), “¿Cómo estás?” (how you feel?), “Yo quiero comer” (I wanna eat). Drop “Yo quiero pizza, ¿tú qué quieres?” – practice that, no cap."
       }
     ]
   },
