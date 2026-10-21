@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Yo, skeletons never roll up 'cause they can't handle the heat—no meat, just bone‑dry vibes, bro, lowkey they’d just crack under pressure, sheesh."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, skeletons never roll up 'cause they can't handle the heat—no meat, just bone‑dry vibes, bro, lowkey they’d just crack under pressure, sheesh.) tell a bengali joke"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, why did the Bengali programmer bring a tea kettle to the code review? ‘Cause he heard the bugs were \"chai\"-ing for a break—sheesh, deadass!"
       }
     ]
   },
