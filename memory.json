@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "Yo bro, if you want that real gritty hustle vibe, binge **The Wire**—street drama that hits harder than a 4‑banger, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo bro, if you want that real gritty hustle vibe, binge **The Wire**—street drama that hits harder than a 4‑banger, no cap.) What about GOT"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, GOT’s got that throne‑chasing hustle and back‑stabbing vibes—perfect for when you need that icy, power‑play grind, no cap."
       }
     ]
   },
