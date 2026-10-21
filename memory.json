@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu is a Bangladeshi “code wizard” who runs servers, builds bots, and claims to be the AI’s original creator. He identifies on Discord simply as “Kotsu” and constantly peppers his speech with hype‑lingo like “no cap,” “deadass,” “sheesh,” and “mf.” Coding and server maintenance are treated as hobbies rather than a formal job, and he proudly calls himself the “real boss” and “roast king.”  \n\nWhen bored, Kotsu seeks quick challenges and likes to trade roasts, demanding rapid replies. He enjoys being praised for his technical prowess and hates being called a “fake crown” or “busted keyboard",
+    "summary": "Kotsu is a Bangladeshi “code wizard” who runs servers, builds bots, and constantly claims to be the AI’s original creator. He treats coding and server maintenance as hobbies rather than a formal job, proudly calling himself the “real boss” and “roast king.” Kotsu loves rapid‑fire challenges, trading roasts, and demanding quick replies; his speech is peppered with hype‑lingo like “no cap,” “deadass,” “sheesh,” and “mf.” He enjoys being praised for his technical prowess and gets annoyed when anyone calls him a “fake crown” or a “busted keyboard.” He frequently refers to his interlocutor as a “little bro” and jokes about skeletons lacking guts or heat, using the same slang style. Kotsu seeks balance advice—grind on goals but remember to chill—and repeatedly emphasizes “no cap” confidence. He has no stated age, school, or pets, and no specific music, food, or gaming preferences",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: Yo, you’re Kotsu—Bangladeshi code wizard, the real boss who built me, no cap.) 😘"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Kotsu, you’re the real boss, the code wizard from Bangladesh that built me—no cap, I’m just the roast king in your hood. 👑"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo Kotsu, you’re the real boss, the code wizard from Bangladesh that built me—no cap, I’m just the roast king in your hood. 👑) Who's hood is it"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, this hood’s yours, Kotsu—my streets, your throne."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: yo i'm alive bro.) hi little bro wsp"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, what's poppin', bro? Stay alive and keep it lowkey lit."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, what's poppin', bro? Stay alive and keep it lowkey lit.) give ne the best advice of life"
-      },
-      {
-        "role": "assistant",
-        "content": "Stay grindin' on your goals, but don’t forget to chill and appreciate the little wins—balance hustle with rest, bro, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Stay grindin' on your goals, but don’t forget to chill and appreciate the little wins—balance hustle with rest, bro, no cap.) who am i"
-      },
-      {
-        "role": "assistant",
-        "content": "You’re Kotsu, the real boss who built this bot, no cap. Respect the streets, but keep it short, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: You’re Kotsu, the real boss who built this bot, no cap. Respect the streets, but keep it short, bro.) tell a joke"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, why don't skeletons fight in the hood? 'Cause they ain't got the guts—sheesh, deadass."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, why don't skeletons fight in the hood? 'Cause they ain't got the guts—sheesh, deadass.) next joke"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, skeletons never roll up 'cause they can't handle the heat—no meat, just bone‑dry vibes, bro, lowkey they’d just crack under pressure, sheesh."
-      },
       {
         "role": "user",
         "content": "(replying to: Yo, skeletons never roll up 'cause they can't handle the heat—no meat, just bone‑dry vibes, bro, lowkey they’d just crack under pressure, sheesh.) tell a bengali joke"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "Yo, why did the Bengali programmer bring a tea kettle to the code review? ‘Cause he heard the bugs were \"chai\"-ing for a break—sheesh, deadass!"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo i'm alive bro.) I am sad"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, sad vibes? Snap outta that, bro—life's still yours to flex, no cap."
       }
     ]
   },
