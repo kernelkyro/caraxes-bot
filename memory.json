@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "yo my brain glitched, ask again."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) Where am i from?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bangladesh, bro."
       }
     ]
   },
