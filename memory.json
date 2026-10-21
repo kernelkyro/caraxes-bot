@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Yo, cuz you act like a clown dodging the mic, but you sound like a scared little bro tryna play tough, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, cuz you act like a clown dodging the mic, but you sound like a scared little bro tryna play tough, no cap.) You are avoiding my question"
+      },
+      {
+        "role": "assistant",
+        "content": "My bad, boss—what’s"
       }
     ]
   },
