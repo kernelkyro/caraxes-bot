@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "yo my brain glitched, ask again."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) Can you die for me😘"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m not about that, bro. If you’re feeling down or need someone to"
       }
     ]
   },
