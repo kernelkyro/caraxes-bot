@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "Yo bro, “আমি পিজ্জা চাই” just means “I want pizza” – you good? Sheesh, keep droppin’ those Bangla vibes, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo bro, “আমি পিজ্জা চাই” just means “I want pizza” – you good? Sheesh, keep droppin’ those Bangla vibes, no cap.) What makes a men powerful"
+      },
+      {
+        "role": "assistant",
+        "content": "Power ain’t handed out, bro—it's confidence, hustle, and that relentless grind, deadass."
       }
     ]
   },
