@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "'cause Kotsu told me straight up—he's Bangladeshi, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: 'cause Kotsu told me straight up—he's Bangladeshi, no cap.) Oh"
+      },
+      {
+        "role": "assistant",
+        "content": "Facts, bro. Kotsu's the real MVP, no cap."
       }
     ]
   },
