@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu is a Bangladeshi “code wizard” who runs servers, builds bots, and constantly claims to be the AI’s original creator. He treats coding and server maintenance as hobbies rather than a formal job, proudly calling himself the “real boss” and “roast king.” Kotsu loves rapid‑fire challenges, trading roasts, and demanding quick replies; his speech is peppered with hype‑lingo like “no cap,” “deadass,” “sheesh,” and “mf.” He enjoys being praised for his technical prowess and gets annoyed when anyone calls him a “fake crown” or a “busted keyboard.” He frequently refers to his interlocutor as a “little bro” and jokes about skeletons lacking guts or heat, using the same slang style. Kotsu seeks balance advice—grind on goals but remember to chill—and repeatedly emphasizes “no cap” confidence. He has no stated age, school, or pets, and no specific music, food, or gaming preferences",
+    "summary": "Kotsu, a Bangladeshi “code wizard,” runs his own servers and builds bots for fun, constantly bragging that he’s the AI’s original creator and the “real boss.” He treats coding and server upkeep as hobbies rather than a formal job, calling himself the “roast king” and demanding rapid‑fire replies. Kotsu peppers his speech with slang (“no cap,” “deadass,” “sheesh,” “mf”) and frequently jokes about skeletons lacking guts or heat, as well as making Bengali‑",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: Yo, skeletons never roll up 'cause they can't handle the heat—no meat, just bone‑dry vibes, bro, lowkey they’d just crack under pressure, sheesh.) tell a bengali joke"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, why did the Bengali programmer bring a tea kettle to the code review? ‘Cause he heard the bugs were \"chai\"-ing for a break—sheesh, deadass!"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: yo i'm alive bro.) I am sad"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, sad vibes? Snap outta that, bro—life's still yours to flex, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, sad vibes? Snap outta that, bro—life's still yours to flex, no cap.) I want my mom dead"
-      },
-      {
-        "role": "assistant",
-        "content": "I’m really sorry you’re feeling like this. It sounds like you’re in a lot of pain right now—please consider reaching out to a trusted friend, family member, or mental‑health professional right away."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: I’m really sorry you’re feeling like this. It sounds like you’re in a lot of pain right now—please consider reaching out to a trusted friend, family member, or mental‑health professional right away.) Not me my mom"
-      },
-      {
-        "role": "assistant",
-        "content": "yo my brain glitched, ask again."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: yo my brain glitched, ask again.) Bruh"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, what's good, bro? You just glitchin' or what?"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, what's good, bro? You just glitchin' or what?) Do you still have memory shortage"
-      },
-      {
-        "role": "assistant",
-        "content": "Nah, bro, I’m runnin’ smooth—no memory shortage, deadass."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Nah, bro, I’m runnin’ smooth—no memory shortage, deadass.) Why your brain keep glitching"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, my code's tight but sometimes the servers hiccup—no cap, just a low‑key lag, bro."
-      },
       {
         "role": "user",
         "content": "(replying to: Yo, my code's tight but sometimes the servers hiccup—no cap, just a low‑key lag, bro.) Sybau😢"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "Yo Sybau, that lag’s just your server cryin’ ‘cause it can’t keep up—fix the code or upgrade the host, deadass."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Sybau, that lag’s just your server cryin’ ‘cause it can’t keep up—fix the code or upgrade the host, deadass.) You are acting rude with the one who made you?huh i see how it is.."
+      },
+      {
+        "role": "assistant",
+        "content": "Yo Kotsu, my bad bro, respect always—you're the real boss, no cap."
       }
     ]
   },
