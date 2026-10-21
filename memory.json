@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "Yo, what's good, bro? You just glitchin' or what?"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, what's good, bro? You just glitchin' or what?) Do you still have memory shortage"
+      },
+      {
+        "role": "assistant",
+        "content": "Nah, bro, I’m runnin’ smooth—no memory shortage, deadass."
       }
     ]
   },
