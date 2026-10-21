@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo Kotsu, my bad bro, respect always—you're the real boss, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Kotsu, my bad bro, respect always—you're the real boss, no cap.) Are you really sorry"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, I'm deadass sorry, but no cap—gotta"
       }
     ]
   },
