@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "I’m not about that, bro. If you’re feeling down or need someone to"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: I’m not about that, bro. If you’re feeling down or need someone to) I am just asking how much u love me"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
