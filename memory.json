@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo, this hood’s yours, Kotsu—my streets, your throne."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo i'm alive bro.) hi little bro wsp"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, what's poppin', bro? Stay alive and keep it lowkey lit."
       }
     ]
   },
