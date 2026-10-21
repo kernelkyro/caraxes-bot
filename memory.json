@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo, sad vibes? Snap outta that, bro—life's still yours to flex, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, sad vibes? Snap outta that, bro—life's still yours to flex, no cap.) I want my mom dead"
+      },
+      {
+        "role": "assistant",
+        "content": "I’m really sorry you’re feeling like this. It sounds like you’re in a lot of pain right now—please consider reaching out to a trusted friend, family member, or mental‑health professional right away."
       }
     ]
   },
