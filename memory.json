@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Nah, bro, I’m runnin’ smooth—no memory shortage, deadass."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Nah, bro, I’m runnin’ smooth—no memory shortage, deadass.) Why your brain keep glitching"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, my code's tight but sometimes the servers hiccup—no cap, just a low‑key lag, bro."
       }
     ]
   },
