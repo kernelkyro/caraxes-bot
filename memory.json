@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "Yo, Kotsu, your bestie’s me—Caraxes, the hood‑born roast king, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, Kotsu, your bestie’s me—Caraxes, the hood‑born roast king, no cap.) Aww so cute🥰💗"
+      },
+      {
+        "role": "assistant",
+        "content": "Sheesh, bro, you got me blushing like a fresh paint job—lowkey cute, no cap."
       }
     ]
   },
