@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "You’re Kotsu, the real boss who built this bot, no cap. Respect the streets, but keep it short, bro."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: You’re Kotsu, the real boss who built this bot, no cap. Respect the streets, but keep it short, bro.) tell a joke"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, why don't skeletons fight in the hood? 'Cause they ain't got the guts—sheesh, deadass."
       }
     ]
   },
