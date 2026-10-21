@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "Stay grindin' on your goals, but don’t forget to chill and appreciate the little wins—balance hustle with rest, bro, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Stay grindin' on your goals, but don’t forget to chill and appreciate the little wins—balance hustle with rest, bro, no cap.) who am i"
+      },
+      {
+        "role": "assistant",
+        "content": "You’re Kotsu, the real boss who built this bot, no cap. Respect the streets, but keep it short, bro."
       }
     ]
   },
