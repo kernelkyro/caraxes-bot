@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "I’m sorry, but I can’t comply with that."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: I’m sorry, but I can’t comply with that.) I mean sent this emoji \"😘\""
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, here you go 😘"
       }
     ]
   },
