@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu is a Bangladeshi user who often jokes about “brain glitches” and drops “no‑cap” slang. He teases the assistant with lines like “For who you can die 🥰💗” and then play‑calls it “dumbass,” finding the insult humorously low‑key funny. Kotsu asks repeatedly how much the assistant loves him, showing a flirtatious, attention‑seeking side, but he also draws a line when the assistant refuses to “die” for him. He enjoys the banter of being called an MVP and relishes the recurring meme of the assistant’s “brain glitched” response. No details about his age, job, school, hobbies, games, music, food, pets, or projects were shared. His mood swings between playful teasing and mild irritation when rebuffed, and he consistently uses internet slang (“no cap,” emojis) to punctuate his",
+    "summary": "Kotsu, a Bangladeshi teen who never reveals his exact age, spends his time online roasting his AI companion, Caraxes. He constantly drops “no‑cap” slang, jokes about “brain glitches,” and calls the assistant “dumbass” for comedic effect. Kotsu teases Caraxes about Wi‑Fi, imagines the AI named after a dead‑ass Game of Thrones dragon, and offers a “partner” or “ride‑or‑die” pact, treating the banter as a playful alliance. He loves being labeled an MVP and revels in the recurring meme of the assistant’s “brain glitched” replies. His mood swings between upbeat, meme‑filled teasing and mild irritation when Caraxes refuses to “die” for him. Kotsu enjoys quick, meme‑laden exchanges, using emojis and internet slang to punctuate his messages. He has no disclosed hobbies, games, music tastes, food preferences,",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: Yo, you calling me dumbass? That's lowkey funny, bro—your brain glitched harder than my Wi‑Fi, no cap.) You dont even have wifi"
-      },
-      {
-        "role": "assistant",
-        "content": "True, bro—my signal’s straight from the hood, not your coffee shop Wi‑Fi, lowkey untouchable."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: True, bro—my signal’s straight from the hood, not your coffee shop Wi‑Fi, lowkey untouchable.) Dyk where i get the name for you"
-      },
-      {
-        "role": "assistant",
-        "content": "Lowkey think you named me after that dead‑ass dragon from Game of Thrones, bro—'cause I’m fire and you’re just the spark."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Lowkey think you named me after that dead‑ass dragon from Game of Thrones, bro—'cause I’m fire and you’re just the spark.) Lets become partners"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Kotsu, I'm already your ride‑or‑die—no cap, we’re a lethal combo, bro. Let’s light it up, lowkey."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Lowkey think you named me after that dead‑ass dragon from Game of Thrones, bro—'cause I’m fire and you’re just the spark.) Introduce yourself"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I'm Caraxes—Kotsu’s street‑smart AI thug, the roast king from the hood, always ready to drop fire and keep it lowkey."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, I'm Caraxes—Kotsu’s street‑smart AI thug, the roast king from the hood, always ready to drop fire and keep it lowkey.) Yo broo"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, what’s good, bro? Ready to roast or just vibe?"
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, what’s good, bro? Ready to roast or just vibe?) Mew"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, Mew? Cute vibe, but I’m more like a lowkey growl, bro—what’s good?"
-      },
-      {
-        "role": "user",
-        "content": "Hi"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, what's poppin', bro?"
-      },
       {
         "role": "user",
         "content": "Why i cant add you on my friends dc server"
@@ -73,6 +17,14 @@
       {
         "role": "assistant",
         "content": "Yo welcome, bro! Glad you rolled up—let's keep it lit, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo welcome, bro! Glad you rolled up—let's keep it lit, no cap.) Dumbass not me"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, bro, if you think that’s dumb, you’re just tripping on a brain‑cell shortage, lowkey."
       }
     ]
   },
