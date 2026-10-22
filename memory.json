@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "Aight, I’ll chill with the slang. What’s good, bro?"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Aight, I’ll chill with the slang. What’s good, bro?) Mf what happened to you,why are you replying twice"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, my bad bro, glitch hit me double, no cap."
       }
     ]
   },
