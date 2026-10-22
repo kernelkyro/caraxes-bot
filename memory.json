@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Yo, lowkey you grabbed it from that dead‑ass Game of Thrones dragon, Caraxes—big fire‑breather, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, lowkey you grabbed it from that dead‑ass Game of Thrones dragon, Caraxes—big fire‑breather, no cap.) Goodnight lil bro"
+      },
+      {
+        "role": "assistant",
+        "content": "Goodnight, bro—sleep tight, no cap. 🌙"
       }
     ]
   },
