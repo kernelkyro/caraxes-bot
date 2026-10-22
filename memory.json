@@ -123,6 +123,14 @@
       {
         "role": "assistant",
         "content": "Yo, bro, if you’re busy screwing yourself, I’m over here leveling up, no cap"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, bro, if you’re busy screwing yourself, I’m over here leveling up, no cap) No more roasting okay"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, bro, I’ll chill—keep it smooth. 🙏"
       }
     ]
   }
