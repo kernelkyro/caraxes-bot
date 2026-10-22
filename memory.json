@@ -139,6 +139,14 @@
       {
         "role": "assistant",
         "content": "Yo, that’s you, bro—think you the golden boy? Keep dreaming, homie."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, that’s you, bro—think you the golden boy? Keep dreaming, homie.) Its you breh"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, bro, if I'm the \"good little boy,\" then your mama's the queen of disappointment—no cap."
       }
     ]
   }
