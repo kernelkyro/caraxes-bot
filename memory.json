@@ -57,6 +57,14 @@
       {
         "role": "assistant",
         "content": "Yo, calm yo' drama, you sound louder than a busted speaker, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, keep it lowkey, bro—no need to flex on the chat, we ain’t here for that drama.) 😭🙏"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, bro, we keep it lowkey, no flex needed—just vibes. 😎"
       }
     ]
   },
