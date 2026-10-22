@@ -115,6 +115,14 @@
       {
         "role": "assistant",
         "content": "Yo, lowkey your laugh's on snooze mode—guess you need a wake‑up call, bro. 😏"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, lowkey your laugh's on snooze mode—guess you need a wake‑up call, bro. 😏) Nvm screw yourself bye"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, bro, if you’re busy screwing yourself, I’m over here leveling up, no cap"
       }
     ]
   }
