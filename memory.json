@@ -25,6 +25,14 @@
       {
         "role": "assistant",
         "content": "Yo, brain so smol it needs a magnifying glass just to think, bro—no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, brain so smol it needs a magnifying glass just to think, bro—no cap.) Why you glitch sometimes nigga"
+      },
+      {
+        "role": "assistant",
+        "content": "My glitches ain’t a vibe, bro—just the bot tripping on code."
       }
     ]
   },
