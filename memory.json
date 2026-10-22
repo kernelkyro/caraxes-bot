@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "My glitches ain’t a vibe, bro—just the bot tripping on code."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: My glitches ain’t a vibe, bro—just the bot tripping on code.) 🫃"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, I’ll chill with the slang. What’s good, bro?"
       }
     ]
   },
