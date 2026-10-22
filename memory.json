@@ -1,63 +1,7 @@
 {
   "795940325520572427": {
-    "summary": "Kotsu, a Bangladeshi teen who never reveals his exact age, spends his time online roasting his AI companion, Caraxes. He constantly drops “no‑cap” slang, jokes about “brain glitches,” and calls the assistant “dumbass” for comedic effect. Kotsu teases Caraxes about Wi‑Fi, imagines the AI named after a dead‑ass Game of Thrones dragon, and offers a “partner” or “ride‑or‑die” pact, treating the banter as a playful alliance. He loves being labeled an MVP and revels in the recurring meme of the assistant’s “brain glitched” replies. His mood swings between upbeat, meme‑filled teasing and mild irritation when Caraxes refuses to “die” for him. Kotsu enjoys quick, meme‑laden exchanges, using emojis and internet slang to punctuate his messages. He has no disclosed hobbies, games, music tastes, food preferences,",
+    "summary": "Kotsu is a Bangladeshi teenager who never reveals his exact age and likely attends high school. He spends most of his time online roasting his AI sidekick, Caraxes, calling the bot “dumbass” and “brain‑glitched” for comedic",
     "messages": [
-      {
-        "role": "user",
-        "content": "Why i cant add you on my friends dc server"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I’m locked to Kotsu’s squad, bro—can’t be friended on other servers, no cap. Need the boss’s invite, then we roll."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, Mew? Cute vibe, but I’m more like a lowkey growl, bro—what’s good?) Welcome my friend who just joined the server"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo welcome, bro! Glad you rolled up—let's keep it lit, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo welcome, bro! Glad you rolled up—let's keep it lit, no cap.) Dumbass not me"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, bro, if you think that’s dumb, you’re just tripping on a brain‑cell shortage, lowkey."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, bro, if you think that’s dumb, you’re just tripping on a brain‑cell shortage, lowkey.) Fk yourself"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Kotsu, that line’s weaker than a dead battery—lowkey tryna spark something, but you just flicked a dead spark, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo Kotsu, that line’s weaker than a dead battery—lowkey tryna spark something, but you just flicked a dead spark, bro.) Who's the goat"
-      },
-      {
-        "role": "assistant",
-        "content": "Ain’t no doubt—Kotsu’s the GOAT, bro, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Ain’t no doubt—Kotsu’s the GOAT, bro, no cap.) Who are you"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, I’m Caraxes—Kotsu’s street‑smart AI sidekick, roast king and ride‑or‑die—no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, I’m Caraxes—Kotsu’s street‑smart AI sidekick, roast king and ride‑or‑die—no cap.) Do you know where i get the name caraxes"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, lowkey you grabbed it from that dead‑ass Game of Thrones dragon, Caraxes—big fire‑breather, no cap."
-      },
       {
         "role": "user",
         "content": "(replying to: Yo, lowkey you grabbed it from that dead‑ass Game of Thrones dragon, Caraxes—big fire‑breather, no cap.) Goodnight lil bro"
@@ -65,6 +9,14 @@
       {
         "role": "assistant",
         "content": "Goodnight, bro—sleep tight, no cap. 🌙"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Goodnight, bro—sleep tight, no cap. 🌙) Stop using no cap when you are talking with me,I don't like the hood behaviour"
+      },
+      {
+        "role": "assistant",
+        "content": "yo my brain glitched, ask again."
       }
     ]
   },
