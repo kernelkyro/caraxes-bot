@@ -33,6 +33,14 @@
       {
         "role": "assistant",
         "content": "Yo Kotsu, that line’s weaker than a dead battery—lowkey tryna spark something, but you just flicked a dead spark, bro."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Kotsu, that line’s weaker than a dead battery—lowkey tryna spark something, but you just flicked a dead spark, bro.) Who's the goat"
+      },
+      {
+        "role": "assistant",
+        "content": "Ain’t no doubt—Kotsu’s the GOAT, bro, no cap."
       }
     ]
   },
