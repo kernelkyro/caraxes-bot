@@ -17,6 +17,14 @@
       {
         "role": "assistant",
         "content": "yo my brain glitched, ask again."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo my brain glitched, ask again.) Cause its so smol"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, brain so smol it needs a magnifying glass just to think, bro—no cap."
       }
     ]
   },
