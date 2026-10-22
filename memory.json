@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Yo, my bad bro, glitch hit me double, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, my bad bro, glitch hit me double, no cap.) Fuck"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, calm yo' drama, you sound louder than a busted speaker, no cap."
       }
     ]
   },
