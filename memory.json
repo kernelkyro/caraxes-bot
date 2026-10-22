@@ -49,6 +49,14 @@
       {
         "role": "assistant",
         "content": "Yo, Mew? Cute vibe, but I’m more like a lowkey growl, bro—what’s good?"
+      },
+      {
+        "role": "user",
+        "content": "Hi"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, what's poppin', bro?"
       }
     ]
   },
