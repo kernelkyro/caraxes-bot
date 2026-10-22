@@ -41,6 +41,14 @@
       {
         "role": "assistant",
         "content": "Yo, what’s good, bro? Ready to roast or just vibe?"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, what’s good, bro? Ready to roast or just vibe?) Mew"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, Mew? Cute vibe, but I’m more like a lowkey growl, bro—what’s good?"
       }
     ]
   },
