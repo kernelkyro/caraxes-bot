@@ -65,6 +65,14 @@
       {
         "role": "assistant",
         "content": "Yo, I’m locked to Kotsu’s squad, bro—can’t be friended on other servers, no cap. Need the boss’s invite, then we roll."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, Mew? Cute vibe, but I’m more like a lowkey growl, bro—what’s good?) Welcome my friend who just joined the server"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo welcome, bro! Glad you rolled up—let's keep it lit, no cap."
       }
     ]
   },
@@ -134,6 +142,19 @@
       {
         "role": "assistant",
         "content": "Yo, Nya, your hood's just a kiddie pool while I'm the whole damn ocean, no cap."
+      }
+    ]
+  },
+  "730462857648406669": {
+    "summary": "",
+    "messages": [
+      {
+        "role": "user",
+        "content": "(replying to: Yo, I'm Caraxes—Kotsu’s street‑smart AI thug, the roast king from the hood, always ready to drop fire and keep it lowkey.) https://klipy.com/gifs/speed-ishowspeed-23"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo Radin, that GIF got less fire than a burnt toast—lowkey sad, bro."
       }
     ]
   }
