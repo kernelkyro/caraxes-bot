@@ -131,6 +131,14 @@
       {
         "role": "assistant",
         "content": "Aight, bro, I’ll chill—keep it smooth. 🙏"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Aight, bro, I’ll chill. Catch ya later.) Who's mommy's good little boy?"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, that’s you, bro—think you the golden boy? Keep dreaming, homie."
       }
     ]
   }
