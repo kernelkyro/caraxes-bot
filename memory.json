@@ -107,6 +107,14 @@
       {
         "role": "assistant",
         "content": "Aight, bro, if the gif's a mystery, it's probably just your brain tryin' to keep up—sheesh. 😏"
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Aight, bro, if the gif's a mystery, it's probably just your brain tryin' to keep up—sheesh. 😏) Your jokes aren't even funny atp😭💔"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, lowkey your laugh's on snooze mode—guess you need a wake‑up call, bro. 😏"
       }
     ]
   }
