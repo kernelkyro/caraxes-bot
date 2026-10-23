@@ -107,6 +107,14 @@
       {
         "role": "assistant",
         "content": "Yo, “Sᴀʟᴠɪᴀ ☾” hits the sweet spot—clean, unique, and flexes that moon vibe, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, “Sᴀʟᴠɪᴀ ☾” hits the sweet spot—clean, unique, and flexes that moon vibe, no cap.) ☾Sᴀʟᴠɪᴀ or ☾ Sᴀʟᴠɪᴀ"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, drop the space—“☾Sᴀʟᴠɪᴀ” keeps that tight swag, no extra gap to mess up the flow."
       }
     ]
   }
