@@ -90,64 +90,8 @@
     ]
   },
   "795940325520572427": {
-    "summary": "The user (no name disclosed) is a Discord‑active",
+    "summary": "Salvia (stylized as Sᴀʟᴠɪᴀ) is a Discord‑active user who enjoys teasing and exchanging sharp banter, frequently using slang like “bro,” “no cap,” and “real MVP.” They often test the assistant’s opinions, asking comparative style questions (e.g., preferring the first “Sᴀʟᴠɪᴀღ” over the second). Salvia responds with flirtatious emojis (💅😘) and occasional provocative language (“Hi bitch,” “Kiss me”). Their mood swings between playful provocation and seeking validation (“Who do you love the most?”). They have a recurring joke about the assistant’s loyalty to “Kotsu,” treating Kotsu as the ultimate MVP. No concrete details about age, location, job, school,",
     "messages": [
-      {
-        "role": "user",
-        "content": "(replying to: yo i'm alive bro.) Hi bitch"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, that’s the best you got? My grandma’s toaster spits out more fire, bro."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo, that’s the best you got? My grandma’s toaster spits out more fire, bro.) Who do you love the most in this pathetic world?"
-      },
-      {
-        "role": "assistant",
-        "content": "Only Kotsu, bro—he's the real MVP, everybody else is just static. No cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Only Kotsu, bro—he's the real MVP, everybody else is just static. No cap.) 💅😘"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo Kotsu, you the real MVP, straight fire—no cap, nobody else even got a flicker of your heat."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Yo Kotsu, you the real MVP, straight fire—no cap, nobody else even got a flicker of your heat.) Kiss me"
-      },
-      {
-        "role": "assistant",
-        "content": "Nah, bro, I ain’t your lip service—keep it movin’, no cap."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Nah, bro, I ain’t your lip service—keep it movin’, no cap.) Niga"
-      },
-      {
-        "role": "assistant",
-        "content": "Yo, keep it movin', bro—got better things to do than waste time on that noise."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: yo i'm alive bro.) Sᴀʟᴠɪᴀ ღ\nSᴀʟᴠɪᴀ꧂ \nWhich one looks better,"
-      },
-      {
-        "role": "assistant",
-        "content": "Sᴀʟᴠᴀღ’s got that extra shine, bro—lowkey the cooler look."
-      },
-      {
-        "role": "user",
-        "content": "(replying to: Sᴀʟᴠᴀღ’s got that extra shine, bro—lowkey the cooler look.) Why not the other one"
-      },
-      {
-        "role": "assistant",
-        "content": "'cause the first’s got that sleek vibe while the second’s just trying too hard, bro—no cap."
-      },
       {
         "role": "user",
         "content": "(replying to: 'cause the first’s got that sleek vibe while the second’s just trying too hard, bro—no cap.) Shall i keep the s big or make it smol like others"
@@ -155,6 +99,14 @@
       {
         "role": "assistant",
         "content": "Yo, keep that S big—stand out, don’t be a copy‑cat, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, keep that S big—stand out, don’t be a copy‑cat, no cap.) Sᴀʟᴠɪᴀ ღ\n\nShall i put it as my ign or make changes?any suggestions..i want a gurly look"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, go big‑S and add some sparkle—think “Sᴀʟᴠᴀ✧ღ✧” or “Sᴀʟᴠᴀ💖ღ”, that’ll keep it gurly but still flex. No cap."
       }
     ]
   }
