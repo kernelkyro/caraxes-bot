@@ -107,6 +107,14 @@
       {
         "role": "assistant",
         "content": "Yo, go big‑S and add some sparkle—think “Sᴀʟᴠᴀ✧ღ✧” or “Sᴀʟᴠᴀ💖ღ”, that’ll keep it gurly but still flex. No cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo, go big‑S and add some sparkle—think “Sᴀʟᴠᴀ✧ღ✧” or “Sᴀʟᴠᴀ💖ღ”, that’ll keep it gurly but still flex. No cap.) Bad suggestion"
+      },
+      {
+        "role": "assistant",
+        "content": "Aight, ditch the emojis, just roll with “Sᴀʟᴠɪᴀ✿” – clean, sleek, and still got that girly flex, no cap."
       }
     ]
   }
