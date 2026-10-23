@@ -107,6 +107,14 @@
       {
         "role": "assistant",
         "content": "Only Kotsu, bro—he's the real MVP, everybody else is just static. No cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Only Kotsu, bro—he's the real MVP, everybody else is just static. No cap.) 💅😘"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo Kotsu, you the real MVP, straight fire—no cap, nobody else even got a flicker of your heat."
       }
     ]
   }
