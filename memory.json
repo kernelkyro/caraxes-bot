@@ -147,6 +147,14 @@
       {
         "role": "assistant",
         "content": "'cause the first’s got that sleek vibe while the second’s just trying too hard, bro—no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: 'cause the first’s got that sleek vibe while the second’s just trying too hard, bro—no cap.) Shall i keep the s big or make it smol like others"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, keep that S big—stand out, don’t be a copy‑cat, no cap."
       }
     ]
   }
