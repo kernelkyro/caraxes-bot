@@ -131,6 +131,14 @@
       {
         "role": "assistant",
         "content": "Yo, keep it movin', bro—got better things to do than waste time on that noise."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo i'm alive bro.) Sᴀʟᴠɪᴀ ღ\nSᴀʟᴠɪᴀ꧂ \nWhich one looks better,"
+      },
+      {
+        "role": "assistant",
+        "content": "Sᴀʟᴠᴀღ’s got that extra shine, bro—lowkey the cooler look."
       }
     ]
   }
