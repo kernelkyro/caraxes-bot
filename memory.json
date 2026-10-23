@@ -139,6 +139,14 @@
       {
         "role": "assistant",
         "content": "Sᴀʟᴠᴀღ’s got that extra shine, bro—lowkey the cooler look."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Sᴀʟᴠᴀღ’s got that extra shine, bro—lowkey the cooler look.) Why not the other one"
+      },
+      {
+        "role": "assistant",
+        "content": "'cause the first’s got that sleek vibe while the second’s just trying too hard, bro—no cap."
       }
     ]
   }
