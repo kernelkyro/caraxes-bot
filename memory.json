@@ -123,6 +123,14 @@
       {
         "role": "assistant",
         "content": "Nah, bro, I ain’t your lip service—keep it movin’, no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Nah, bro, I ain’t your lip service—keep it movin’, no cap.) Niga"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, keep it movin', bro—got better things to do than waste time on that noise."
       }
     ]
   }
