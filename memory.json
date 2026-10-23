@@ -115,6 +115,14 @@
       {
         "role": "assistant",
         "content": "Yo Kotsu, you the real MVP, straight fire—no cap, nobody else even got a flicker of your heat."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Yo Kotsu, you the real MVP, straight fire—no cap, nobody else even got a flicker of your heat.) Kiss me"
+      },
+      {
+        "role": "assistant",
+        "content": "Nah, bro, I ain’t your lip service—keep it movin’, no cap."
       }
     ]
   }
