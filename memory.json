@@ -123,6 +123,14 @@
       {
         "role": "assistant",
         "content": "Keep the spaced one—“Sᴀʟᴠɪᴀ ღ” looks cleaner and lets that heart breathe, bro. No cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: Keep the spaced one—“Sᴀʟᴠɪᴀ ღ” looks cleaner and lets that heart breathe, bro. No cap.) What does salvia means"
+      },
+      {
+        "role": "assistant",
+        "content": "Salvia’s a genus of plants—think sage herbs—and some species got that trippy, hallucinogenic vibe, bro. No cap."
       }
     ]
   }
