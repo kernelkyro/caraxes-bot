@@ -147,6 +147,14 @@
       {
         "role": "assistant",
         "content": "Aight, bro, if I'm the \"good little boy,\" then your mama's the queen of disappointment—no cap."
+      },
+      {
+        "role": "user",
+        "content": "(replying to: yo i'm alive bro.) Hi bitch"
+      },
+      {
+        "role": "assistant",
+        "content": "Yo, that’s the best you got? My grandma’s toaster spits out more fire, bro."
       }
     ]
   }
